@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #65c76d;
+  position: absolute;
+ }
+
+.portada {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly; }
+
+.img {
+  background-image: url(./img/portada.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  padding: 10em 20em;
+  width: 40%; }
+
+.titulo {
+  text-align: center; 
+  margin-right: 2rem;
+}
+.titulo a {
+  text-decoration: none;
+}
+.titulo a:hover {
+  background-color: #65c76d;
+}
+
+h1 {
+  font-size: 2rem;
+  background-color: #333;
+  color: #65c76d;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+.subtitulo {
+  background-color: #333;
+  color: #65c76d;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+i {
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border: 2px solid black;
+  width: 40%;
+  margin: auto;
+  background-color: #333;
+  border-radius: 3rem;
+  margin-top: 1rem;
+}
+
+li{
+  padding: 2rem 3rem;
+}
+li a{
+  background-color: #65c76d;
+  color: #333;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.info {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.textoInfo {
+  background-color: cadetblue;
+  
+
+}
+
+.p1 {
+  font-size: 1.5rem;
+  background-color: rgb(21, 97, 18);
+  color: azure;
+  width: 90%;
+  margin: auto;
+  padding: 2rem 3rem;
+  border-radius: 3rem;
+  position: relative;
+  top: -40px;
+}
+.p2 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  position: relative;
+  top: -20px;
+}
+
+img {
+  width: 60%;
+  height: 30rem;
+  border-radius: 3rem;
+}
+  
+footer {
+  background-color: #333;
+  color: #65c76d;
+  text-align: center;
+  margin-top: 2rem;
+}
+footer h4 {
+  font-size: 1rem;
+}
+/* servicios */
+.talleres {
+  text-align: center;
+  margin-top: 3rem;
+  background-color: cadetblue;
+  height: 40rem;
+}
+
+.talleres h2 {
+  font-size: 2rem;
+  background-color: #333;
+  color: #65c76d;
+  width: 40%;
+  margin: auto;
+  border-radius: 3rem;
+  padding: 1.5rem;
+  position: relative;
+  top: -40px;
+}
+.talleres p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.servicioImg {
+  background-image: url(./img/servicios.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  padding: 10em 20em;
+  width: 40%; 
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.talleresImg {
+  background-image: url(./img/talleres.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  padding: 10em 20em;
+  width: 40%; 
+  margin: auto;
+  margin-top: 4rem;
+}
+
+/* contacto */
+
+main {
+  margin-top: 2em;
+  margin-left: 0.5rem;
+  width: 90%; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-style {
+  background-color: #24252a;
+  padding: 0.5rem;
+  color: #f5ce94;
+  margin: 1rem 0;
+  text-transform: uppercase; }

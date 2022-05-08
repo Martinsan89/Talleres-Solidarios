@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Talleres solidarios</title>
+  </head>
+  <body>
+    <section class="portada">
+      <div class="img"></div>
+      <div class="titulo">
+        <a href="./index.html" id="home" data-target="home">
+          <h1>Talleres Solidarios</h1>
+        </a>
+        <p class="subtitulo">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
+          doloribus.
+        </p>
+        <i class="fab fa-instagram fa-3x fa-color"></i>
+        <i class="fab fa-facebook fa-3x fa-color"></i>
+        <i class="fab fa-whatsapp fa-3x fa-color"></i>
+      </div>
+    </section>
+    <div class="navbar">
+      <ul class="navmenu">
+        <li>
+          <a href="./contacto.html" data-target="contacto" id="contacto"
+            >Contacto</a
+          >
+        </li>
+        <li>
+          <a href="./talleres.html" data-target="talleres" id="talleres"
+            >Talleres</a
+          >
+        </li>
+        <li>
+          <a href="./servicios.html" data-target="servicios" id="servicios"
+            >Servicios</a
+          >
+        </li>
+      </ul>
+    </div>
+    <section class="info">
+      <div class="textoInfo">
+        <h3 class="p1">
+          Desde Talleres Solidarios ofrecemos el servicion SIN CARGO de retiros
+          tanto de material informatico, tecnologico, muebles y todo lo que no
+          usan mas!
+        </h3>
+        <h3 class="p2">Trabajamos con empresas y con personas particulares.</h3>
+      </div>
+      <img src="./img/info.jpeg" alt="" />
+    </section>
+    <section class="talleres">
+      <h2>Servicios de limpieza de oficinas y galpones</h2>
+      <p>Donde tambien sacamos todo lo que son hierros y demas.</p>
+      <div class="servicioImg"></div>
+    </section>
+    <section class="talleres">
+      <h2>Talleres Introduccion a la informatica</h2>
+      <p>Taller de reparacion</p>
+      <div class="talleresImg"></div>
+    </section>
+    <!-- ------------FORMULARIO---------------------- -->
+    <main class="consultas">
+      <!-- Subtitulo -->
+      <h2>Para retiro de material reciclable.</h2>
+      <!-- Formulario -->
+      <form class="border border-dark border-2 px-3 mt-3">
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label mt-3">Nombre</label>
+          <input
+            type="text"
+            class="form-control w-50"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <label for="exampleInputCountry" class="form-label mt-3"
+            >Direccion</label
+          >
+          <input
+            type="text"
+            class="form-control w-25"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <label for="exampleInputCountry" class="form-label mt-3"
+            >Telefono</label
+          >
+          <input
+            type="text"
+            class="form-control w-25"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <label for="exampleInputEmail1" class="form-label mt-3">Email </label>
+          <input
+            type="email"
+            class="form-control w-75"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <label for="exampleInputQuery" class="form-label mt-3"
+            >Descripcion del material</label
+          >
+          <textarea
+            class="form-control"
+            placeholder="Deje su comentario/Leave a comment here"
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-style">
+          Enviar/Submit
+        </button>
+      </form>
+    </main>
+    <footer>
+      <h4>Informacion institucional</h4>
+    </footer>
+  </body>
+</html>
